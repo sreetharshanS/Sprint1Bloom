@@ -1,0 +1,119 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.navbar{
+    color: white;
+    background-color: rgb(28, 27, 27);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-size: 2.2em;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list{
+    margin-left: 30px;
+}
+.nav-li{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-li:hover{
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+}
+.body-title{
+    padding: 60px;
+}
+.body-para{
+    padding: 10px;
+    margin-left: 50px;
+}
+.body-butn{
+    margin-left: 55px;
+    margin-top: 20px;
+    color: white;
+    background-color: orange;
+    padding: 12px;
+    border-radius: 6px;
+    border-color: orange;
+    border: solid 0;
+}
+.body-butn{
+    cursor: pointer;
+}
+.hero-section-img{
+    transform: translateX(-40px);
+    margin-top: 80px;
+}
+.span1{
+    display: block;
+}
+.body-img{
+    height: 250px;
+    margin-left: 60%;
+    transform: translateY(60px);
+}
+.card{
+    height: 170px;
+    width: 170px;
+    background-color: black;
+    border-radius: 8px;
+}
+.card-section{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    height: 275px;
+}
+.latest-post,.connection,.about{
+    margin-top: 40px;
+}
+.footer-li{
+    list-style: none;
+    margin-top: 15px;
+}
+.footer-li:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .hero-section{
+         display: flex;
+         flex-direction:column;
+    }
+    .hero-section-img{
+        transform: translateX(-300px);
+    }
+}
